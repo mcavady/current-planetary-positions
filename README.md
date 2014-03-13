@@ -6,6 +6,19 @@ Current Planetary Positions is a WordPress plugin that adds a widget which displ
 The zodiac sign symbols are color coded according to their element: red for fire signs, green for earth, yellow for air, and blue for water. The widget also displays the current local date and time of the viewer, as given by the viewer's browser. 
 
 
+**Languages**
+
+These languages are included in the plugin:
+
+- English (default)
+- Arabic
+- French
+- Hindi
+- Spanish
+
+This plugin is translation-ready, and includes a `.pot` file to make it easy for you to translate it into other languages.
+
+
 **Credits**
 
 Current Planetary Positions uses the Swiss Ephemeris to get the longitude of the planets. Learn more about the [Swiss Ephemeris](http://www.astro.com/swisseph/swephinfo_e.htm)
