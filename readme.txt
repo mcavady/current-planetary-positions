@@ -34,11 +34,6 @@ These languages are included in the plugin:
 
 This plugin is translation-ready, and includes a `.pot` file to make it easy for you to translate it into other languages.
 
-
-**Credits**
-
-Daily Moon Forecast uses the Swiss Ephemeris to get the longitudes of the planets. Learn more about the [Swiss Ephemeris](http://www.astro.com/swisseph/swephinfo_e.htm)
-
 For more info, see the [FAQ](http://wordpress.org/plugins/daily-moon-forecast/faq/), the Installation instructions (link above), or the [plugin web page](http://isabelcastillo.com/docs/category/daily-moon-forecast-wordpress-plugin).
 
 == Installation ==
