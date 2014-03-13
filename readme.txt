@@ -81,6 +81,9 @@ To center the widget title and the date and time, add this to `style.css`:
 
 == Changelog ==
 
+= 1.2.5 = 
+* Maintenance: Fixed typo in readme description.
+
 = 1.2.4 = 
 * New: removed Software Licensing plugin updater class.
 * Maintenance: updated .pot file and all translation files.
