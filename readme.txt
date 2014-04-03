@@ -78,6 +78,7 @@ To center the widget title and the date and time, add this to `style.css`:
 
 == Screenshots ==
 1. Current Planetary Positions widget
+2. Zoomed in - Current Planetary Positions widget
 
 == Changelog ==
 
