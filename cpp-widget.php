@@ -17,7 +17,7 @@ class cpp_widget extends WP_Widget {
 
 	}
 	public function isa_get_sign_position($longitude) {
-		$sym = array(aries,taurus,gemini,cancer,leo,virgo,libra,scorpio,sagittarius,capricorn,aquarius,pisces);
+		$sym = array('aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces');
 
 		$localize_signs = array( __( 'Aries', 'cpp' ), __( 'Taurus', 'cpp' ), __( 'Gemini', 'cpp' ), __( 'Cancer', 'cpp' ), __( 'Leo', 'cpp' ), __( 'Virgo', 'cpp' ), __( 'Libra', 'cpp' ), __( 'Scorpio', 'cpp' ), __( 'Sagittarius', 'cpp' ), __( 'Capricorn', 'cpp' ), __( 'Aquarius', 'cpp'), __( 'Pisces', 'cpp') );
 
