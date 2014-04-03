@@ -85,7 +85,7 @@ To center the widget title and the date and time, add this to `style.css`:
 * New: changed textdomain to be same as plugin slug. Updated all .pot, .mo, .po translation filenames accordingly.
 * New: option to show UTC/GMT time instead of viewer's local time.
 * New: singleton class.
-* Maintenance: removed PHP warning for using undefined constants.
+* Maintenance: removed PHP warning for using undefined constants and for localized_full_sec.
 
 = 1.2.5 = 
 * Maintenance: Fixed typo in description.

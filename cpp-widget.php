@@ -42,7 +42,7 @@ class cpp_widget extends WP_Widget {
 	
 		$localized_deg = $localized_dms[$deg];
 		$localized_min = $localized_dms[$min];
-		$localized_full_sec = $localized_dms[$full_sec];
+		$localized_full_sec = isset($localized_dms[$full_sec]) ? $localized_dms[$full_sec] : _('00');
 
 		// localize degree symbol
 
