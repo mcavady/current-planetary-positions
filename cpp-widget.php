@@ -125,12 +125,10 @@ class cpp_widget extends WP_Widget {
 // @todo show UTC time here
 // 3-Apr-2014, 16:09 UT/GMT
 
-// $utdate = $time->format('j').'.'.$time->format('n').'.'.$time->format('Y');// day.month.year (single-digit day, month, 4-digit year)
-// $uttime = $time->format('H').'.'.$time->format('i').'.'.$time->format('s');  // HH.MM.SS
+$utc_display_date = $time->format('j').'-'.$time->format('M').'-'.$time->format('Y');// like 3-Apr-2014
+$utc_display_time = $time->format('H').':'.$time->format('i');  // HH:MM
 
-
-//$utc_display_date = $time->format('j').'-'.$time->format('M').'-'.$time->format('Y');// like 3-Apr-2014
-//$utc_display_time = $time->format('H').':'.$time->format('i').':'.$time->format('s');  // 
+echo $utc_display_date . ', ' . $utc_display_time . ' UT/GMT';
 
 // @test end
 
