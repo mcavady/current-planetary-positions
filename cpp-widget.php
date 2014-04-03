@@ -75,8 +75,8 @@ class cpp_widget extends WP_Widget {
 		
 		$time = new DateTime('now', new DateTimeZone('UTC'));
 		
-		$utdate = $time->format('j').'.'.$time->format('n').'.'.$time->format('Y');// day.month.year (single-digit day, month, 4-digit month)
-		$uttime = $time->format('H').'.'.$time->format('i').'.'.$time->format('s');  // HH:MM:SS
+		$utdate = $time->format('j').'.'.$time->format('n').'.'.$time->format('Y');// day.month.year (single-digit day, month, 4-digit year)
+		$uttime = $time->format('H').':'.$time->format('i').':'.$time->format('s');  // HH:MM:SS
 		
 		$num_planets = 11;
 		
@@ -121,7 +121,20 @@ class cpp_widget extends WP_Widget {
 			var t=d.toLocaleTimeString(); 
 			document.write(n + "<br />" + t); 
 		</script>
-		<?php echo '</p>';
+		<?php 
+// @todo show UTC time here
+// 3-Apr-2014, 16:09 UT/GMT
+
+// $utdate = $time->format('j').'.'.$time->format('n').'.'.$time->format('Y');// day.month.year (single-digit day, month, 4-digit year)
+// $uttime = $time->format('H').'.'.$time->format('i').'.'.$time->format('s');  // HH.MM.SS
+
+
+//$utc_display_date = $time->format('j').'-'.$time->format('M').'-'.$time->format('Y');// like 3-Apr-2014
+//$utc_display_time = $time->format('H').':'.$time->format('i').':'.$time->format('s');  // 
+
+// @test end
+
+echo '</p>';
 		echo '<table>',"\n";
 		for ($i = 0; $i <= $num_planets - 1; $i++) {
 			echo '<tr><td>';
