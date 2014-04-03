@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=me%40
 Tags: current planets, planetary, positions, astrology, zodiac, planets positions, ephemeris
 Requires at least: 3.4
 Tested up to: 3.9
-Stable Tag: 1.2.5
+Stable Tag: 1.2.6
 License: GNU GPL Version 2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,9 +77,12 @@ To center the widget title and the date and time, add this to `style.css`:
 }`
 
 == Screenshots ==
-1. How Current Planetary Positions looks on your site
+1. Current Planetary Positions widget
 
 == Changelog ==
+
+= 1.2.6 =
+* Maintenance: removed PHP warning for using undefined constants.
 
 = 1.2.5 = 
 * Maintenance: Fixed typo in description.
