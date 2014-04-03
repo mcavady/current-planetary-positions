@@ -3,7 +3,7 @@
 Plugin Name: Current Planetary Positions
 Plugin URI: http://isabelcastillo.com/docs/category/current-planetary-positions-wordpress-plugin
 Description: Display the current planetary positions in the zodiac signs.
-Version: 1.2.6-rc-1
+Version: 1.2.6-rc-2
 Author: Isabel Castillo
 Author URI: http://isabelcastillo.com
 License: GPL2
@@ -27,9 +27,18 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with Current Planetary Positions Plugin; if not, If not, see <http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>.
 */
-if(!class_exists('Current_Planetary_Positions')) {
 class Current_Planetary_Positions{
-    public function __construct() {
+
+	private static $instance = null;
+
+	public static function get_instance() {
+		if ( null == self::$instance ) {
+			self::$instance = new self;
+		}
+		return self::$instance;
+	}
+
+	private function __construct() {
 
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue' ) );
 		add_action( 'plugins_loaded', array( $this, 'plugins_loaded' ) );
@@ -45,7 +54,7 @@ class Current_Planetary_Positions{
 	 * Registers the widget.
 	 * @since 1.0
 	 */
-   	public function enqueue() {
+   	function enqueue() {
 		
 		wp_register_style('cpp', plugins_url('/style.css', __FILE__));
 		wp_enqueue_style('cpp');
@@ -55,7 +64,7 @@ class Current_Planetary_Positions{
 	 * Registers the widget.
 	 * @since 1.0
 	 */
-	public function plugins_loaded() {
+	function plugins_loaded() {
 		load_plugin_textdomain( 'cpp', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 		$wantedPerms = 0755;
 		$actualPerms = substr(sprintf('%o', fileperms(CPP_PLUGIN_DIR . '/sweph/isabelse')), -4);
@@ -70,5 +79,4 @@ class Current_Planetary_Positions{
 		register_widget( 'cpp_widget' );
 	}
 }
-}
-$Current_Planetary_Positions = new Current_Planetary_Positions();
+$current_planetary_postitions = Current_Planetary_Positions::get_instance();
