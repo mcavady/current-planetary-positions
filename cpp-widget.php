@@ -11,15 +11,15 @@ class cpp_widget extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 	 		'cpp_widget',
-			__('Current Planetary Positions', 'cpp'),
-			array( 'description' => __( 'Display the current planetary positions in the zodiac signs.', 'cpp' ), )
+			__('Current Planetary Positions', 'current-planetary-positions'),
+			array( 'description' => __( 'Display the current planetary positions in the zodiac signs.', 'current-planetary-positions' ), )
 		);
 
 	}
 	public function isa_get_sign_position($longitude) {
 		$sym = array('aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces');
 
-		$localize_signs = array( __( 'Aries', 'cpp' ), __( 'Taurus', 'cpp' ), __( 'Gemini', 'cpp' ), __( 'Cancer', 'cpp' ), __( 'Leo', 'cpp' ), __( 'Virgo', 'cpp' ), __( 'Libra', 'cpp' ), __( 'Scorpio', 'cpp' ), __( 'Sagittarius', 'cpp' ), __( 'Capricorn', 'cpp' ), __( 'Aquarius', 'cpp'), __( 'Pisces', 'cpp') );
+		$localize_signs = array( __( 'Aries', 'current-planetary-positions' ), __( 'Taurus', 'current-planetary-positions' ), __( 'Gemini', 'current-planetary-positions' ), __( 'Cancer', 'current-planetary-positions' ), __( 'Leo', 'current-planetary-positions' ), __( 'Virgo', 'current-planetary-positions' ), __( 'Libra', 'current-planetary-positions' ), __( 'Scorpio', 'current-planetary-positions' ), __( 'Sagittarius', 'current-planetary-positions' ), __( 'Capricorn', 'current-planetary-positions' ), __( 'Aquarius', 'current-planetary-positions'), __( 'Pisces', 'current-planetary-positions') );
 
 
 		foreach ($sym as $key => $val) {
@@ -49,7 +49,7 @@ class cpp_widget extends WP_Widget {
 		if( is_rtl() ) $degree =  "&deg;$localized_deg";
 		else $degree =  "$localized_deg&deg;";
 
-		$set_out = sprintf( __( '%s %s %s%s %s%s', 'cpp' ), 
+		$set_out = sprintf( __( '%s %s %s%s %s%s', 'current-planetary-positions' ), 
 						$degree,
 						$symbol[$sign_num],
 						$localized_min,
@@ -102,7 +102,7 @@ class cpp_widget extends WP_Widget {
 			$speed[$key] = $row[2];
 		}
 		// localize planet names
-		$pl_name = array( __( 'Sun', 'cpp' ), __( 'Moon', 'cpp' ), __( 'Mercury', 'cpp' ), __( 'Venus', 'cpp' ), __( 'Mars', 'cpp' ), __( 'Jupiter', 'cpp' ), __( 'Saturn', 'cpp' ), __( 'Uranus', 'cpp' ), __( 'Neptune', 'cpp' ), __( 'Pluto', 'cpp' ), __( 'Chiron', 'cpp') );
+		$pl_name = array( __( 'Sun', 'current-planetary-positions' ), __( 'Moon', 'current-planetary-positions' ), __( 'Mercury', 'current-planetary-positions' ), __( 'Venus', 'current-planetary-positions' ), __( 'Mars', 'current-planetary-positions' ), __( 'Jupiter', 'current-planetary-positions' ), __( 'Saturn', 'current-planetary-positions' ), __( 'Uranus', 'current-planetary-positions' ), __( 'Neptune', 'current-planetary-positions' ), __( 'Pluto', 'current-planetary-positions' ), __( 'Chiron', 'current-planetary-positions') );
 
 		extract( $args );
 		$title = apply_filters('widget_title', $instance['title']);
@@ -140,12 +140,12 @@ class cpp_widget extends WP_Widget {
 
 		for ($i = 0; $i <= $num_planets - 1; $i++) {
 			echo '<tr><td>';
-				printf( __( '%s', 'cpp' ), $pl_name[$i] );
+				printf( __( '%s', 'current-planetary-positions' ), $pl_name[$i] );
 				echo '&nbsp;';
 			echo '</td><td>';
 				echo $this->isa_get_sign_position($longitude[$i]);
 				if ($speed[$i] < 0) { //retrograde
-						echo '&nbsp;' . __('R', 'cpp' );
+						echo '&nbsp;' . __('R', 'current-planetary-positions' );
 				}
 			echo  '</td></tr>';
 		}
@@ -178,20 +178,20 @@ class cpp_widget extends WP_Widget {
 	public function form( $instance ) {
 
 		$defaults = array( 
-					'title' => __('Current Planetary Positions', 'cpp'),
+					'title' => __('Current Planetary Positions', 'current-planetary-positions'),
 					'show_utc_time' => false
 					);
  		$instance = wp_parse_args( (array) $instance, $defaults );
     	?>
 		<p>
 			<label for="<?php echo $this->get_field_id( 'title' ); ?>">
-				<?php _e( 'Title:', 'cpp' ); ?>
+				<?php _e( 'Title:', 'current-planetary-positions' ); ?>
 			</label>
 			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" 
 				name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $instance['title']; ?>" />
 		</p>
 
-		<p><input id="<?php echo $this->get_field_id( 'show_utc_time' ); ?>" name="<?php echo $this->get_field_name( 'show_utc_time' ); ?>" type="checkbox" class="checkbox" <?php checked( $instance['show_utc_time'], 'on' ); ?> /><label for="<?php echo $this->get_field_id( 'show_utc_time' ); ?>"><?php _e( ' Show UT/GMT time instead of viewer\'s local time.', 'cpp' ); ?></label></p>
+		<p><input id="<?php echo $this->get_field_id( 'show_utc_time' ); ?>" name="<?php echo $this->get_field_name( 'show_utc_time' ); ?>" type="checkbox" class="checkbox" <?php checked( $instance['show_utc_time'], 'on' ); ?> /><label for="<?php echo $this->get_field_id( 'show_utc_time' ); ?>"><?php _e( ' Show UT/GMT time instead of viewer\'s local time.', 'current-planetary-positions' ); ?></label></p>
 
 		<?php 
 	}

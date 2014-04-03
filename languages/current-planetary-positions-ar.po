@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Current Planetary Positions\n"
-"POT-Creation-Date: 2014-03-13 11:24-0500\n"
-"PO-Revision-Date: 2014-03-13 11:25-0500\n"
+"POT-Creation-Date: 2014-04-03 13:15-0500\n"
+"PO-Revision-Date: 2014-04-03 13:19-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -20,7 +20,7 @@ msgstr ""
 "content\\plugins\\current-planetary-positions\n"
 
 #: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:14
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:166
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:181
 msgid "Current Planetary Positions"
 msgstr "مواقع الكواكب الحالية"
 
@@ -321,62 +321,66 @@ msgstr ""
 msgid "%s %s %s%s %s%s"
 msgstr ""
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:106
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
 msgid "Sun"
 msgstr "شمس"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:106
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
 msgid "Moon"
 msgstr "قمر"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:106
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
 msgid "Mercury"
 msgstr "زئبق"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:106
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
 msgid "Venus"
 msgstr "فينوس"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:106
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
 msgid "Mars"
 msgstr "المريخ"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:106
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
 msgid "Jupiter"
 msgstr "كوكب المشتري"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:106
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
 msgid "Saturn"
 msgstr "زحل"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:106
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
 msgid "Uranus"
 msgstr "اورانوس"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:106
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
 msgid "Neptune"
 msgstr "نبتون"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:106
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
 msgid "Pluto"
 msgstr "بلوتو"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:106
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
 msgid "Chiron"
 msgstr "تشيرون"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:129
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:143
 #, php-format
 msgid "%s"
 msgstr ""
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:134
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:148
 msgid "R"
 msgstr "إ"
 
-#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:172
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:188
 msgid "Title:"
 msgstr "لقب"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:194
+msgid " Show UT/GMT time instead of viewer's local time."
+msgstr ".تظهر مرة العالمي بدلا من التوقيت المحلي في المشاهد"
 
 #~ msgid "Current Planetary Positions License Options"
 #~ msgstr "مواقع الكواكب الحالية - خيارات الترخيص"

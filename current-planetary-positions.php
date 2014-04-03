@@ -7,7 +7,7 @@ Version: 1.2.6-rc-2
 Author: Isabel Castillo
 Author URI: http://isabelcastillo.com
 License: GPL2
-Text Domain: cpp
+Text Domain: current-planetary-positions
 Domain Path: languages
 
 Copyright 2013 - 2014 Isabel Castillo
@@ -65,7 +65,7 @@ class Current_Planetary_Positions{
 	 * @since 1.0
 	 */
 	function plugins_loaded() {
-		load_plugin_textdomain( 'cpp', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+		load_plugin_textdomain( 'current-planetary-positions', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 		$wantedPerms = 0755;
 		$actualPerms = substr(sprintf('%o', fileperms(CPP_PLUGIN_DIR . '/sweph/isabelse')), -4);
 		if($actualPerms !== $wantedPerms)
