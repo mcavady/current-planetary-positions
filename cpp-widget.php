@@ -106,34 +106,38 @@ class cpp_widget extends WP_Widget {
 
 		extract( $args );
 		$title = apply_filters('widget_title', $instance['title']);
+		$show_utc_time = isset($instance['show_utc_time']) ? $instance['show_utc_time'] : false;
+
 		echo $before_widget;
-		if ( ! empty( $title ) )
+		if ( ! empty( $title ) ) {
 			echo '<h3 class="widget-title">'. $title . '</h3>';
-
+		}
 		// begin output to browser
-		echo '<div id="current-planets">';
-		
-		// display local date and time
-		echo '<p id="localtime">'; ?>
-		<script>
-			var d=new Date();
-			var n=d.toLocaleDateString();
-			var t=d.toLocaleTimeString(); 
-			document.write(n + "<br />" + t); 
-		</script>
+		?>
+		<div id="current-planets">
 		<?php 
-// @todo show UTC time here
-// 3-Apr-2014, 16:09 UT/GMT
+		// if Show UTC option is checked, show it instead
+		if ( $show_utc_time ) {
+	
+			$utc_display_date = $time->format('j').'-'.$time->format('M').'-'.$time->format('Y');// like 3-Apr-2014
+			$utc_display_time = $time->format('H').':'.$time->format('i');  // HH:MM
+					
+			echo '<p id="utc-time">' . $utc_display_date . ', ' . $utc_display_time . ' UT/GMT';
 
-$utc_display_date = $time->format('j').'-'.$time->format('M').'-'.$time->format('Y');// like 3-Apr-2014
-$utc_display_time = $time->format('H').':'.$time->format('i');  // HH:MM
+		} else {
 
-echo $utc_display_date . ', ' . $utc_display_time . ' UT/GMT';
+			// display local date and time
+			echo '<p id="localtime">'; ?>
+			<script>
+				var d=new Date();
+				var n=d.toLocaleDateString();
+				var t=d.toLocaleTimeString(); 
+				document.write(n + "<br />" + t); 
+			</script>
+		<?php }
 
-// @test end
+		echo '</p><table>';
 
-echo '</p>';
-		echo '<table>',"\n";
 		for ($i = 0; $i <= $num_planets - 1; $i++) {
 			echo '<tr><td>';
 				printf( __( '%s', 'cpp' ), $pl_name[$i] );
@@ -162,6 +166,7 @@ echo '</p>';
 	public function update( $new_instance, $old_instance ) {
 		$instance = array();
 		$instance['title'] = strip_tags( $new_instance['title'] );
+		$instance['show_utc_time'] = $new_instance['show_utc_time'];
 		return $instance;
 	}
 
@@ -174,6 +179,7 @@ echo '</p>';
 
 		$defaults = array( 
 					'title' => __('Current Planetary Positions', 'cpp'),
+					'show_utc_time' => false
 					);
  		$instance = wp_parse_args( (array) $instance, $defaults );
     	?>
@@ -184,6 +190,9 @@ echo '</p>';
 			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" 
 				name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $instance['title']; ?>" />
 		</p>
+
+		<p><input id="<?php echo $this->get_field_id( 'show_utc_time' ); ?>" name="<?php echo $this->get_field_name( 'show_utc_time' ); ?>" type="checkbox" class="checkbox" <?php checked( $instance['show_utc_time'], 'on' ); ?> /><label for="<?php echo $this->get_field_id( 'show_utc_time' ); ?>"><?php _e( ' Show UT/GMT time instead of viewer\'s local time.', 'cpp' ); ?></label></p>
+
 		<?php 
 	}
 
