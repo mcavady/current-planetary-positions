@@ -62,7 +62,6 @@ class cpp_widget extends WP_Widget {
 
 	}
 	
-	
 	/**
 	 * Front-end display of widget.
 	 *
@@ -85,7 +84,7 @@ class cpp_widget extends WP_Widget {
 		
 		unset($PATH,$out,$longitude,$speed);
 
-		$PATH = '';// WordPress is picky picky
+		$PATH = '';
 		
 		putenv("PATH=$PATH:$sweph");
 		
@@ -97,10 +96,10 @@ class cpp_widget extends WP_Widget {
 		
 		foreach ($out as $key => $line) {
 		
-		    $row = explode(',',$line);
+			$row = explode(',',$line);
 			$pl_name[$key] = $row[0];
-		    $longitude[$key] = $row[1];
-		    $speed[$key] = $row[2];
+			$longitude[$key] = $row[1];
+			$speed[$key] = $row[2];
 		}
 		// localize planet names
 		$pl_name = array( __( 'Sun', 'cpp' ), __( 'Moon', 'cpp' ), __( 'Mercury', 'cpp' ), __( 'Venus', 'cpp' ), __( 'Mars', 'cpp' ), __( 'Jupiter', 'cpp' ), __( 'Saturn', 'cpp' ), __( 'Uranus', 'cpp' ), __( 'Neptune', 'cpp' ), __( 'Pluto', 'cpp' ), __( 'Chiron', 'cpp') );
