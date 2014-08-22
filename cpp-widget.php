@@ -99,8 +99,8 @@ class cpp_widget extends WP_Widget {
 		$pl_name = array( __( 'Sun', 'current-planetary-positions' ), __( 'Moon', 'current-planetary-positions' ), __( 'Mercury', 'current-planetary-positions' ), __( 'Venus', 'current-planetary-positions' ), __( 'Mars', 'current-planetary-positions' ), __( 'Jupiter', 'current-planetary-positions' ), __( 'Saturn', 'current-planetary-positions' ), __( 'Uranus', 'current-planetary-positions' ), __( 'Neptune', 'current-planetary-positions' ), __( 'Pluto', 'current-planetary-positions' ), __( 'Chiron', 'current-planetary-positions') );
 
 		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Current Planetary Positions', 'current-planetary-positions' ) : $instance['title'], $instance, $this->id_base );
-		$show_utc_time = isset($instance['show_utc_time']) ? $instance['show_utc_time'] : false;
-
+		$show_utc_time = empty($instance['show_utc_time']) ? false : 'on';// @test
+		
 		echo $args['before_widget'];
 		if ( $title ) {
 			echo '<h3 class="widget-title">'. $title . '</h3>';
@@ -152,7 +152,7 @@ class cpp_widget extends WP_Widget {
 	public function update( $new_instance, $old_instance ) {
 		$instance = array();
 		$instance['title'] = strip_tags( $new_instance['title'] );
-		$instance['show_utc_time'] = $new_instance['show_utc_time'];
+		$instance['show_utc_time'] = empty($new_instance['show_utc_time']) ? false : 'on';
 		return $instance;
 	}
 
@@ -161,16 +161,16 @@ class cpp_widget extends WP_Widget {
 	 */
 	public function form( $instance ) {
 		$defaults = array( 
-					'title' => __('Current Planetary Positions', 'current-planetary-positions'),
-					'show_utc_time' => false
-					);
+			'title' => __('Current Planetary Positions', 'current-planetary-positions'),
+			'show_utc_time' => false
+			);
  		$instance = wp_parse_args( (array) $instance, $defaults );
     	?>
 		<p>
-			<label for="<?php echo $this->get_field_id( 'title' ); ?>">
-				<?php _e( 'Title:', 'current-planetary-positions' ); ?>
-			</label>
-			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" 
+		<label for="<?php echo $this->get_field_id( 'title' ); ?>">
+			<?php _e( 'Title:', 'current-planetary-positions' ); ?>
+		</label>
+		<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" 
 				name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $instance['title']; ?>" />
 		</p>
 		<p><input id="<?php echo $this->get_field_id( 'show_utc_time' ); ?>" name="<?php echo $this->get_field_name( 'show_utc_time' ); ?>" type="checkbox" class="checkbox" <?php checked( $instance['show_utc_time'], 'on' ); ?> /><label for="<?php echo $this->get_field_id( 'show_utc_time' ); ?>"><?php _e( ' Show UT/GMT time instead of viewer\'s local time.', 'current-planetary-positions' ); ?></label></p>
