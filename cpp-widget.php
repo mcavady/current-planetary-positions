@@ -14,7 +14,6 @@ class cpp_widget extends WP_Widget {
 			__('Current Planetary Positions', 'current-planetary-positions'),
 			array( 'description' => __( 'Display the current planetary positions in the zodiac signs.', 'current-planetary-positions' ), )
 		);
-
 	}
 	public function isa_get_sign_position($longitude) {
 		$sym = array('aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces');
@@ -120,14 +119,8 @@ class cpp_widget extends WP_Widget {
 		} else {
 
 			// display local date and time
-			echo '<p id="localtime">'; ?>
-			<script>
-				var d=new Date();
-				var n=d.toLocaleDateString();
-				var t=d.toLocaleTimeString(); 
-				document.write(n + "<br />" + t); 
-			</script>
-		<?php }
+			echo '<p id="localtime">'; ?><script>var d=new Date();var n=d.toLocaleDateString();var t=d.toLocaleTimeString();document.write(n + "<br />" + t);</script><?php
+		}
 
 		echo '</p><table>';
 
