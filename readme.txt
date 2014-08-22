@@ -86,6 +86,7 @@ To center the widget title and the date and time, add this to `style.css`:
 * Maintenance - Updated widget to work with the WordPress 4.0 live widget customizer.
 * Maintenance - Compresses sprites for increased page speed.
 * Maintenance - Minify the inline js for increased page speed.
+* Maintenance - Removed unused icon.
 * Maintenance - Removed one PHP warning.
 
 = 1.2.6 =
