@@ -84,15 +84,8 @@ class cpp_widget extends WP_Widget {
 		$num_planets = 11;
 		
 		$sweph = CPP_PLUGIN_DIR . 'sweph'; // set path to ephemeris
-		
-		
-/* @test what if I try NOT unsetting $PATH?? */
-
-
 		unset($out,$longitude,$speed);
-
 		$PATH = '';
-		
 		putenv("PATH=$PATH:$sweph");
 
 		// get 11 planets
