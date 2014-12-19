@@ -1,0 +1,425 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Current Planetary Positions\n"
+"POT-Creation-Date: 2014-04-03 13:15-0500\n"
+"PO-Revision-Date: 2014-04-03 13:22-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: C:\\Users\\Isabel\\Documents\\My Web Sites\\chema\\wp-"
+"content\\plugins\\current-planetary-positions\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: C:\\Users\\Isabel\\Documents\\My Web Sites\\chema\\wp-"
+"content\\plugins\\current-planetary-positions\n"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:14
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:181
+msgid "Current Planetary Positions"
+msgstr "Posiciones Planetas Ahora"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:15
+msgid "Display the current planetary positions in the zodiac signs."
+msgstr "Mostrar las posiciones planetarias actuales en los signos del zodiaco."
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Aries"
+msgstr "Aries"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Taurus"
+msgstr "Tauro"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Gemini"
+msgstr "Géminis"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Cancer"
+msgstr "Cáncer"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Leo"
+msgstr "Leo"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Virgo"
+msgstr "Virgo"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Libra"
+msgstr "Libra"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Scorpio"
+msgstr "Escorpio"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Sagittarius"
+msgstr "Sagitario"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Capricorn"
+msgstr "Capricornio"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Aquarius"
+msgstr "Acuario"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:22
+msgid "Pisces"
+msgstr "Piscis"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "00"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "01"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "02"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "03"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "04"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "05"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "06"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "07"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "08"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "09"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "10"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "11"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "12"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "13"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "14"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "15"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "16"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "17"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "18"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "19"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "20"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "21"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "22"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "23"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "24"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "25"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "26"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "27"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "28"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "29"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "30"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "31"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "32"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "33"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "34"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "35"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "36"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "37"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "38"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "39"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "40"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "41"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "42"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "43"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "44"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "45"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "46"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "47"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "48"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "49"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "50"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "51"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "52"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "53"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "54"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "55"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "56"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "57"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "58"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:38
+msgid "59"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:52
+#, php-format
+msgid "%s %s %s%s %s%s"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
+msgid "Sun"
+msgstr "Sol"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
+msgid "Moon"
+msgstr "Luna"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
+msgid "Mercury"
+msgstr "Mercurio"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
+msgid "Venus"
+msgstr "Venus"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
+msgid "Mars"
+msgstr "Marte"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
+msgid "Jupiter"
+msgstr "Júpiter"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
+msgid "Saturn"
+msgstr "Saturno"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
+msgid "Uranus"
+msgstr "Urano"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
+msgid "Neptune"
+msgstr "Neptuno"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
+msgid "Pluto"
+msgstr "Plutón"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:105
+msgid "Chiron"
+msgstr "Chiron"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:143
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:148
+msgid "R"
+msgstr "R"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:188
+msgid "Title:"
+msgstr "Título:"
+
+#: C:\Users\Isabel\Documents\my_web_sites\chema\wp-content\plugins\current-planetary-positions/cpp-widget.php:194
+msgid " Show UT/GMT time instead of viewer's local time."
+msgstr "Mostrar tiempo universal en lugar de la hora local del espectador."
+
+#~ msgid "Current Planetary Positions License Options"
+#~ msgstr "Posiciones Planetas Ahora - Opciones de licencia"
+
+#~ msgid ""
+#~ "A plugin license will grant you access to support and updates. If you "
+#~ "wish to update to the latest version of Current Planetary Positions or "
+#~ "get support for this plugin, you need an active license."
+#~ msgstr ""
+#~ "Una licencia plugin se le conceda el acceso a soporte y actualizaciones. "
+#~ "Si usted desea actualizar a la última versión de Posiciones Planetarias "
+#~ "actuales u obtener apoyo para este plugin, usted necesita una licencia "
+#~ "activa."
+
+#~ msgid "Purchase a license"
+#~ msgstr "Comprar una licencia"
+
+#~ msgid "License Key"
+#~ msgstr "Clave de Licencia"
+
+#~ msgid "Enter your license key"
+#~ msgstr "Ingrese su clave de licencia"
+
+#~ msgid "Activate License"
+#~ msgstr "Activar licencia"
+
+#~ msgid "Status: active  "
+#~ msgstr "Estado: activa"
+
+#~ msgid "Deactivate License"
+#~ msgstr "Desactivar Licencia"
+
+#~ msgid "Check Status"
+#~ msgstr "Comprobar estado"
+
+#~ msgid "Status: %s"
+#~ msgstr "Estado: %s"
+
+#~ msgid "Current Planetary Positions License"
+#~ msgstr "Posiciones Planetas Ahora - Licencia"
+
+#~ msgid " R"
+#~ msgstr "R"

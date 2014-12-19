@@ -1,0 +1,78 @@
+﻿#current-planets {
+	font-family:Lucida Console, Verdana, Arial, Helvetica, sans-serif; margin:1em auto;
+	text-rendering: optimizelegibility;font-size: 12px;line-height: 2em;
+}
+#current-planets table {
+	display: inline-block;border-spacing: 0px;border-collapse: collapse;text-align:left;min-width:250px;margin-left:auto;margin-right:auto;
+}
+#currentplanets_sprite {
+    background: url(icons/sprites.png) no-repeat top left;margin:0;padding:0;width: 18px; height: 18px;display:inline-block;vertical-align:middle;
+}
+#currentplanets_sprite.aquarius{ background-position: 0 0; } 
+#currentplanets_sprite.aries{ background-position: -26px 0; } 
+#currentplanets_sprite.cancer{ background-position: -52px 0; } 
+#currentplanets_sprite.capricorn{ background-position: -78px 0; } 
+#currentplanets_sprite.gemini{ background-position: -104px 0; } 
+#currentplanets_sprite.leo{ background-position: -130px 0; } 
+#currentplanets_sprite.libra{ background-position: -156px 0; } 
+#currentplanets_sprite.pisces{ background-position: -182px 0; } 
+#currentplanets_sprite.sagittarius{ background-position: -208px 0; } 
+#currentplanets_sprite.scorpio{ background-position: -234px 0; } 
+#currentplanets_sprite.taurus{ background-position: -260px 0; } 
+#currentplanets_sprite.virgo{ background-position: -286px 0; } 
+
+#current-planets tbody tr {background-color:transparent;}
+
+/* Twenty fourteen theme compatibility */
+
+#current-planets table, #current-planets th, #current-planets td {border:0;}
+
+/* Twenty Fourteen and Twenty Thirteen theme - fit icons to thinner sidebar */
+
+#secondary #primary-sidebar #currentplanets_sprite,
+#supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite,
+.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite {
+    background: url(icons/sprites-mini.png) no-repeat top left;width: 14px; height: 14px;}
+
+#secondary #primary-sidebar #currentplanets_sprite.aquarius,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.aquarius, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.aquarius{ background-position: 0 0; } 
+#secondary #primary-sidebar #currentplanets_sprite.aries,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.aries, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.aries{ background-position: -22px 0; } 
+#secondary #primary-sidebar #currentplanets_sprite.cancer,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.cancer, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.cancer{ background-position: -44px 0; } 
+#secondary #primary-sidebar #currentplanets_sprite.capricorn,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.capricorn, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.capricorn{ background-position: -66px 0; } 
+#secondary #primary-sidebar #currentplanets_sprite.gemini,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.gemini, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.gemini{ background-position: -88px 0; } 
+#secondary #primary-sidebar #currentplanets_sprite.leo,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.leo, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.leo{ background-position: -110px 0; } 
+#secondary #primary-sidebar #currentplanets_sprite.libra,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.libra, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.libra{ background-position: -132px 0; } 
+#secondary #primary-sidebar #currentplanets_sprite.pisces,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.pisces, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.pisces{ background-position: -154px 0; } 
+#secondary #primary-sidebar #currentplanets_sprite.sagittarius,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.sagittarius, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.sagittarius{ background-position: -176px 0; } 
+#secondary #primary-sidebar #currentplanets_sprite.scorpio,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.scorpio, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.scorpio{ background-position: -198px 0; } 
+#secondary #primary-sidebar #currentplanets_sprite.taurus,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.taurus, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.taurus{ background-position: -220px 0; } 
+#secondary #primary-sidebar #currentplanets_sprite.virgo,.site-footer .sidebar-container .widget_cpp_widget #currentplanets_sprite.virgo, #supplementary .footer-sidebar .widget_cpp_widget #currentplanets_sprite.virgo{ background-position: -242px 0; } 
+
+#secondary #primary-sidebar #current-planets,
+#supplementary .footer-sidebar #current-planets,
+.site-footer .sidebar-container #current-planets{line-height:1.7em;} 
+
+/* thin sidebar */
+#secondary #primary-sidebar #current-planets #localtime{font-size:0.8em;}
+#secondary #primary-sidebar #current-planets table{font-size:0.79em;}
+
+/* thin footer sidebar */
+#supplementary .footer-sidebar .widget_cpp_widget #current-planets table,
+.site-footer .sidebar-container .widget_cpp_widget #current-planets table/* Twenty Thirteen theme */ {
+font-size:10px;
+}
+
+/* Twenty Thirteen theme */
+.sidebar-inner .widget_cpp_widget {padding-right:0;}
+.sidebar-inner .widget_cpp_widget  #current-planets table{font-size:11px;}
+
+
+@media screen and (max-device-width: 568px) {
+     /* place here CSS targeted at iPhones and smaller screen sizes, not iPads */
+	#current-planets {
+		width:100%;max-width:100%;margin:1em 0;display:block;
+	}
+
+	#current-planets #localtime {
+		font-size:92%;
+	}
+}
