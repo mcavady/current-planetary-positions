@@ -87,7 +87,7 @@ To center the widget title and the date and time, add this to `style.css`:
 == Changelog ==
 
 = 1.3.1 =
-* Maintenance:  Updated the sweph binary files. 
+* Maintenance:  Updated the sweph binary files. The old ones may have been unreadable on some servers, and caused all planets set to 0 degrees Aries.
 
 = 1.3 =
 * Maintenance - Updated widget to work with the WordPress 4.0 live widget customizer.
