@@ -46,6 +46,10 @@ For more info, see the [FAQ](http://wordpress.org/plugins/daily-moon-forecast/fa
 
 == Frequently Asked Questions ==
 
+= How can I enable exec() on Namecheap host? = 
+
+[See this](https://www.namecheap.com/support/knowledgebase/article.aspx/9396/2219/how-to-enable-exec) to enable the exec() function on Namecheap host.
+
 = How can I change the CSS style of the widget? =
 
 1. To style the entire widget, use this selector:
