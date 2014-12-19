@@ -3,8 +3,8 @@ Contributors: isabel104
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=me%40isabelcastillo%2ecom
 Tags: current planets, planetary, positions, astrology, zodiac, planets positions, ephemeris
 Requires at least: 3.7
-Tested up to: 4.0
-Stable Tag: 1.3
+Tested up to: 4.1
+Stable Tag: 1.3.1
 License: GNU GPL Version 2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,6 +81,9 @@ To center the widget title and the date and time, add this to `style.css`:
 2. Zoomed in - Current Planetary Positions widget
 
 == Changelog ==
+
+= 1.3.1 =
+* Maintenance:  Updated the sweph binary files. 
 
 = 1.3 =
 * Maintenance - Updated widget to work with the WordPress 4.0 live widget customizer.

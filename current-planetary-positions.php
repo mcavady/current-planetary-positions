@@ -3,7 +3,7 @@
 Plugin Name: Current Planetary Positions
 Plugin URI: http://isabelcastillo.com/docs/category/current-planetary-positions-wordpress-plugin
 Description: Display the current planetary positions in the zodiac signs.
-Version: 1.3-zztesting-1.33
+Version: 1.3-1-beta1.33
 Author: Isabel Castillo
 Author URI: http://isabelcastillo.com
 License: GPL2
