@@ -15,16 +15,6 @@ class cpp_widget extends WP_Widget {
 		);
 	}
 
-	function isa_log( $message ) {
-    if (WP_DEBUG === true) {
-        if ( is_array( $message) || is_object( $message ) ) {
-            error_log( print_r( $message, true ) );
-        } else {
-            error_log( $message );
-        }
-    }
-}
-
 	public function isa_get_sign_position($longitude) {
 		$sym = array('aries','taurus','gemini','cancer','leo','virgo','libra','scorpio','sagittarius','capricorn','aquarius','pisces');
 		$localize_signs = array( __( 'Aries', 'current-planetary-positions' ), __( 'Taurus', 'current-planetary-positions' ), __( 'Gemini', 'current-planetary-positions' ), __( 'Cancer', 'current-planetary-positions' ), __( 'Leo', 'current-planetary-positions' ), __( 'Virgo', 'current-planetary-positions' ), __( 'Libra', 'current-planetary-positions' ), __( 'Scorpio', 'current-planetary-positions' ), __( 'Sagittarius', 'current-planetary-positions' ), __( 'Capricorn', 'current-planetary-positions' ), __( 'Aquarius', 'current-planetary-positions'), __( 'Pisces', 'current-planetary-positions') );
@@ -105,7 +95,7 @@ class cpp_widget extends WP_Widget {
 		$pl_name = array( __( 'Sun', 'current-planetary-positions' ), __( 'Moon', 'current-planetary-positions' ), __( 'Mercury', 'current-planetary-positions' ), __( 'Venus', 'current-planetary-positions' ), __( 'Mars', 'current-planetary-positions' ), __( 'Jupiter', 'current-planetary-positions' ), __( 'Saturn', 'current-planetary-positions' ), __( 'Uranus', 'current-planetary-positions' ), __( 'Neptune', 'current-planetary-positions' ), __( 'Pluto', 'current-planetary-positions' ), __( 'Chiron', 'current-planetary-positions') );
 
 		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Current Planetary Positions', 'current-planetary-positions' ) : $instance['title'], $instance, $this->id_base );
-		$show_utc_time = empty($instance['show_utc_time']) ? false : 'on';// @test
+		$show_utc_time = empty($instance['show_utc_time']) ? false : 'on';
 		
 		echo $args['before_widget'];
 		if ( $title ) {
